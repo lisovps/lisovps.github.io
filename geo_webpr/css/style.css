@@ -1,0 +1,112 @@
+.wprapper{
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+h1, h2, h3, h4, h5, h5{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #220637;
+}
+p, li, a, button{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+}
+.container{
+    max-width: 1200px; 
+    padding: 0 100px;
+    /* #растяжка боди3 */
+    height: 100%;
+    /* ============ */
+
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(../img/fon4.svg);
+    background-repeat: no-repeat;
+    background-size: auto 960px;
+    background-position: right; 
+    
+}
+.header-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.header-top {
+}
+.header-top-inner{
+    padding-top: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-logo {
+}
+.logo {
+}
+.header-menu {
+    display: flex;
+    list-style-type:none;
+
+}
+.header-menu-item {
+    margin-right: 50px;
+}
+.header-menu-item:last-child {
+    margin-right: 0px;
+}
+.header-body {
+    height: 80%;
+    /* background-image: url(../img/fongeo2.png);
+    background-repeat: no-repeat; */
+    /* background-size:722px 800px; */
+    /* background-position: right;  */
+}
+.header-body-inner {
+    display: flex;
+    height: 100%;
+    align-items:center;
+}
+.header-body-text {
+    max-width: 420px;
+}
+.header-body-title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 48px;
+}
+.header-body-subtitle {
+    position: relative;
+    margin-bottom: 61px;
+}
+.header-body-subtitle::after{
+    position: absolute;
+    content:'';
+    width: 50px;
+    height: 50px;
+    background-image:url(../img/Ellipse.svg);
+    background-repeat:no-repeat;
+    top: 72%;
+    right: -11%;
+}
+.header-body-button {
+    width: 199px;
+    height: 50px;
+    border: none;
+    background-color:#9818FC;
+    color: #FFF;
+}
+.test-section{
+    height: 500px;
+    background-color:#9818FC;
+}
